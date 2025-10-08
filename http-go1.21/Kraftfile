@@ -9,4 +9,4 @@ labels:
 
 rootfs: ./Dockerfile
 
-cmd: ["/start.sh"]
+cmd: ["/helloworld run -c /helloworld.json > /dev/null 2>&1"]
