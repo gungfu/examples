@@ -1,4 +1,4 @@
-deploy to unikraft:
+install unikraft:
 
 curl -sSfL https://get.kraftkit.sh | sh
 
@@ -9,6 +9,8 @@ export UKC_TOKEN=token
 Set metro to Frankfurt, DE:
 
 export UKC_METRO=fra
+
+deploy:
 
 kraft cloud deploy -p 443:8080 .
 
